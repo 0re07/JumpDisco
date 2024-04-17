@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actionList name = "Player" virsion="1.0">
+	<action name = "Idle" source="Data/Image/Player/Idle.png" divSizeX="64" divSizeY="64" divCntX="4" divCntY="1">
+		<anime loop="-1" encoding="csv">
+			0,10,64,64,
+			1,10,64,64,
+			2,10,64,64,
+			3,10,64,64
+		</anime>
+	</action>
+	<action name = "Run" source="Data/Image/Player/Run.png" divSizeX="64" divSizeY="64" divCntX="6" divCntY="1">
+		<anime loop="-1" encoding="csv">
+			0,10,64,64,
+			1,10,64,64,
+			2,10,64,64,
+			3,10,64,64,
+			4,10,64,64,
+			5,10,64,64
+		</anime>
+	</action>
+	<action name = "Jump" source="Data/Image/Player/Jump.png" divSizeX="64" divSizeY="64" divCntX="4" divCntY="1">
+		<anime loop="1" encoding="csv">
+			0,10,64,64,
+			1,10,64,64,
+			2,10,64,64,
+			3,10,64,64
+		</anime>
+	</action>
+	<action name = "BigJump" source="Data/Image/Player/Run.png" divSizeX="64" divSizeY="64" divCntX="6" divCntY="1">
+		<anime loop="1" encoding="csv">
+			0,10,64,64,
+			1,10,64,64,
+			2,10,64,64,
+			3,10,64,64,
+			4,10,64,64,
+			5,10,64,64
+		</anime>
+	</action>
+	<action name = "Fall" source="Data/Image/Player/Fall.png" divSizeX="64" divSizeY="64" divCntX="4" divCntY="1">
+		<anime loop="1" encoding="csv">
+			0,10,64,64,
+			1,10,64,64,
+			2,10,64,64,
+			3,10,64,64
+		</anime>
+	</action>
+</actionList>

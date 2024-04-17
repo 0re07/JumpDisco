@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<waveList name = "Wave" virsion="1.0">
+	<wave name = "1" radius="0">
+		<move loop="-1" encoding="csv">
+			0,3,0,0,64,64,
+			1,3,0,0,64,64,
+			2,3,0,0,64,64,
+			3,3,0,0,64,64
+		</move>
+	</wave>
+</waveList>

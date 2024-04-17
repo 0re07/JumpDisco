@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moduleList name="Wave" version="1.0">
+	<!--生成-->
+	<ActNode name="Born">
+		<module name="CheckNotExist">
+			<module name="SetBorn" state="Born"/>
+		</module>
+	</ActNode>
+	<!--準備-->
+	<ActNode name="Before">
+		<module name="CheckState" state="Born">
+			<module name="SetSpread" speed="1.0"/>
+		</module>
+		<module name="CheckState" state="Before">
+			<module name="UpdateSpread" speed="1.0" limit="10.0"/>
+		</module>
+	</ActNode>
+	<!--拡大-->
+	<ActNode name="Start">
+		<module name="CheckState" state="Before">
+			<module name="SetSpread" speed="3.0"/>
+		</module>
+		<module name="CheckState" state="Start">
+			<module name="UpdateSpread" speed="3.0" limit="700.0"/>
+		</module>
+	</ActNode>
+	<!--終了-->
+	<ActNode name="End">
+		<module name="CheckState" state="Start">
+			<module name="SetSpread" speed="-1.0"/>
+		</module>
+		<module name="CheckState" state="End">
+			<module name="UpdateSpread" speed="-1.0" limit="0.0"/>
+		</module>
+	</ActNode>
+</moduleList>

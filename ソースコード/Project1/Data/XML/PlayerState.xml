@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moduleList name="Player" version="1.0">
+	<!--左移動-->
+	<ActNode name="MoveVecLeft">
+		<module name="CheckKey" key="LEFT">
+			<module name="SetDir" dir="LEFT"/>
+			<module name="CheckMove" pow="3">
+				<module name="Move" x="-3" y="0"/>
+			</module>
+		</module>
+		<module name="CheckState" state="Idle">
+			<module name="SetAnime" state="Run"/>
+			<module name="CheckHit"/>
+		</module>
+	</ActNode>
+	<!--右移動-->
+	<ActNode name="MoveVecRight">
+		<module name="CheckKey" key="RIGHT">
+			<module name="SetDir" dir="RIGHT"/>
+			<module name="CheckMove" pow="3">
+				<module name="Move" x="3" y="0"/>
+			</module>
+		</module>
+		<module name="CheckState" state="Idle">
+			<module name="SetAnime" state="Run"/>
+			<module name="CheckHit"/>
+		</module>
+	</ActNode>
+	<!--上移動-->
+	<ActNode name="MoveVecUp">
+		<module name="CheckKey" key="UP">
+			<module name="CheckMove" pow="3">
+				<module name="Move" x="0" y="-3"/>
+			</module>
+		</module>
+		<module name="CheckState" state="Idle">
+			<module name="SetAnime" state="Run"/>
+			<module name="CheckHit"/>
+		</module>
+	</ActNode>
+	<!--下移動-->
+	<ActNode name="MoveVecDown">
+		<module name="CheckKey" key="DOWN">
+			<module name="CheckMove" pow="3">
+				<module name="Move" x="0" y="3"/>
+			</module>
+		</module>
+		<module name="CheckState" state="Idle">
+			<module name="SetAnime" state="Run"/>
+			<module name="CheckHit"/>
+		</module>
+	</ActNode>
+	<!--落下-->
+	<ActNode name="Fall">
+		<module name="CheckState" state="Jump">
+			<module name="SetFall" jump="0.2"/>
+		</module>
+		<module name="CheckState" state="Fall">
+			<module name="UpdateFall" jump="0.2" limit="0.0"/>
+		</module>
+	</ActNode>
+	<!--ジャンプ-->
+	<ActNode name="Jump">
+		<module name="CheckState" state="Run" state2="Idle">
+			<module name="CheckKey" key="BTN3">
+				<module name="SetJump" jump="10.0"/>
+			</module>
+		</module>
+		<module name="CheckState" state="Jump">
+			<module name="UpdateJump" jump="0.2"/>
+		</module>
+	</ActNode>
+	<!--通常状態-->
+	<ActNode name="Idle">
+		<module name="CheckNonMove">
+			<module name="SetAnime" state="Idle"/>
+			<module name="CheckHit"/>
+		</module>
+	</ActNode>
+</moduleList>

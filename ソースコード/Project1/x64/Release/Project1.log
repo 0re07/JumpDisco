@@ -1,0 +1,39 @@
+﻿  Vector2D.cpp
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\common\Vector2D.cpp(246,23): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\common\Vector2D.cpp(246,20): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  Controller.cpp
+  GamePad.cpp
+  Keybord.cpp
+  main.cpp
+  AnimeMng.cpp
+  ImageMng.cpp
+  SoundApp.cpp
+  SoundMng.cpp
+  Hoop.cpp
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Hoop.cpp(159,69): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Hoop.cpp(159,44): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Hoop.cpp(163,76): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Hoop.cpp(163,51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Hoop.cpp(164,72): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Hoop.cpp(164,48): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Player.cpp
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Player.cpp(198,17): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Player.cpp(197,25): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Player.cpp(234,34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\Object\Player.cpp(234,27): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  BaseScene.cpp
+  GameScene.cpp
+  ResultScene.cpp
+  SceneMng.cpp
+  TitleScene.cpp
+  CrossOver.cpp
+  Transition.cpp
+  TutorialScene.cpp
+  _DebugConOut.cpp
+  コンパイル中...
+  _DebugDispOut.cpp
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 946 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Project1.vcxproj -> D:\Users\2116216\Desktop\就活\作品\2年\JumpDisco\Project1\x64\Release\Project1.exe
